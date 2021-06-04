@@ -92,7 +92,7 @@ nav a:hover {
   display: block;
   margin: 0;
   height: 37rem;
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("./res/images/bannerBackground.png");
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../images/bannerBackground.png");
   background-size: cover;
   background-position: center;
   padding: 4rem;
@@ -185,7 +185,7 @@ nav a:hover {
 
 #about-me-text p {
   vertical-align: top;
-  line-height: 1.70;
+  line-height: 1.7;
   font-size: 1.175rem;
   word-wrap: normal;
   text-align: left;
@@ -197,7 +197,7 @@ nav a:hover {
   text-align: left;
 }
 
-/*footer style sheet*/ 
+/*footer style sheet*/
 
 footer {
   position: relative;
