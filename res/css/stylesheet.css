@@ -36,7 +36,7 @@ header {
   top: 0;
   left: 0;
   background-color: var(--foreground-color);
-  border-bottom: 1px solid var(--border-color);
+  border-bottom: 2px solid var(--border-color);
   width: 100%;
 }
 
@@ -54,12 +54,18 @@ header nav ul {
 }
 
 nav a {
+  padding:0.2rem;
   vertical-align: bottom;
   color: seashell;
   justify-content: center;
   align-items: center;
   font-size: 1.2rem;
   text-decoration: none;
+  transition: border-bottom 0.1s ease-in;
+}
+
+nav a:hover{
+  border-bottom: 3px solid #66fcf1;
 }
 
 /* Banner CSS */
@@ -76,7 +82,7 @@ nav a {
   padding: 4rem;
   background-blend-mode: multiply;
   align-items: center;
-  border-bottom: 3px solid var(--border-color);
+  border-bottom: 2px solid var(--border-color);
 }
 
 #profile-picture-container {
@@ -129,5 +135,26 @@ nav a {
 
 #social-media-icons a:hover {
   color: var(--header-text);
+}
+
+/*about me style sheet*/ 
+#about-me {
+  top: 6rem;
+  position: relative;
+  margin: 0 auto ;
+}
+
+#about-me-text{
+  margin: 0 auto;
+  display: inline-block;
+}
+
+#about-me-text p {
+  line-height: 1.4;
+  font-size: 1.1rem;
+}
+
+#about-me-text h2{
+  text-align: left;
 }
 
