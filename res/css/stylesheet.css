@@ -54,7 +54,7 @@ header nav ul {
 }
 
 nav a {
-  padding:0.2rem;
+  padding: 0.2rem;
   vertical-align: bottom;
   color: seashell;
   justify-content: center;
@@ -64,7 +64,7 @@ nav a {
   transition: border-bottom 0.1s ease-in;
 }
 
-nav a:hover{
+nav a:hover {
   border-bottom: 3px solid #66fcf1;
 }
 
@@ -76,8 +76,8 @@ nav a:hover{
   display: block;
   margin: 0;
   height: 37rem;
-  background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url("/res/images/bannerBackground.png") ;
-  background-size:cover;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("/res/images/bannerBackground.png");
+  background-size: cover;
   background-position: center;
   padding: 4rem;
   background-blend-mode: multiply;
@@ -102,7 +102,7 @@ nav a:hover{
   letter-spacing: 0.5rem;
   line-height: 1.4;
   font-size: 3rem;
-  margin: 1.5rem auto
+  margin: 1.5rem auto;
 }
 
 #banner h2 {
@@ -115,19 +115,19 @@ nav a:hover{
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 3rem auto
+  margin: 3rem auto;
 }
 
 #social-media-icons a {
   padding: 0.5rem;
   width: 2.1rem;
   height: 2.1rem;
-  border-radius: 50% ;
+  border-radius: 50%;
   display: flex;
   justify-content: center;
   color: var(--light-background-color);
   transition: color 0.1s ease-in;
-  background-color: #FFFFFF1A;
+  background-color: #ffffff1a;
   margin: 0 1rem;
   align-items: center;
   text-decoration: none;
@@ -137,24 +137,62 @@ nav a:hover{
   color: var(--header-text);
 }
 
-/*about me style sheet*/ 
+/*about me style sheet*/
 #about-me {
   top: 6rem;
   position: relative;
-  margin: 0 auto ;
+  justify-content: center;
+  align-content: center;
+  margin: 1rem auto;
+  padding: 3rem auto;
+  width: 80%;
+  height: 40rem;
 }
 
-#about-me-text{
-  margin: 0 auto;
+#about-me-profile-picture-container {
+  width: 25rem;
+  margin: 0 2rem;
+}
+
+#about-me-profile-picture {
+  max-width: 100%;
+  max-height: 100%;
+  border: 5px solid white;
+}
+
+#about-me-text {
+  margin: 0 3rem;
   display: inline-block;
+  padding: 0 1rem;
+  width: 40%;
 }
 
 #about-me-text p {
-  line-height: 1.4;
-  font-size: 1.1rem;
+  vertical-align: top;
+  line-height: 1.70;
+  font-size: 1.175rem;
+  word-wrap: normal;
+  text-align: left;
+  width: 100%;
 }
 
-#about-me-text h2{
+#about-me-text h1 {
+  font-size: 2rem;
   text-align: left;
 }
 
+/*footer style sheet*/ 
+
+footer {
+  position: relative;
+  top: 6rem;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  background-color: var(--foreground-color);
+  border-top: 2px solid var(--border-color);
+}
+
+.copyright {
+  margin-left: 1rem;
+}
