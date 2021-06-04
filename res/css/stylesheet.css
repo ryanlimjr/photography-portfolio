@@ -92,7 +92,7 @@ nav a:hover {
   display: block;
   margin: 0;
   height: 37rem;
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("/res/images/bannerBackground.png");
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("./res/images/bannerBackground.png");
   background-size: cover;
   background-position: center;
   padding: 4rem;
