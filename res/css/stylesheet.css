@@ -5,6 +5,22 @@ html {
   color: #c5c6c7;
 }
 
+::-webkit-scrollbar {
+  width: 0.25rem;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent;
+  display: block;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--header-text);
+  border-radius: 10px;
+}
+
 :root {
   --background-color: #0b0c10;
   --header-text: #66fcf1;
